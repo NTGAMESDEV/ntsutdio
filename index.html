@@ -10,12 +10,12 @@
     <link rel="stylesheet" type="text/css" href="styles.css"> 
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
-    <title>ร้าน NTDEV - หน้าแรก</title>
+    <title>NTDEV SUIDIO</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">NTDEV-SHOP</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,65 +25,16 @@
                         <a class="nav-link active" aria-current="page" href="#"><i class="fi fi-rr-home"></i> หน้าแรก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fi fi-rr-bags-shopping"></i> ร้านค้า</a>
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fi fi-rr-bags-shopping"></i> สิ้นค่า</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"><i class="fi fi-rr-coins"></i> เติมเงิน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://discord.com/oauth2/authorize?client_id=1175760765513375785&response_type=token&redirect_uri=https%3A%2F%2Fntgamesdevshop.github.io%2Fntgame&scope=identify" id="login"><i class="fi fi-rr-book-user"></i> เข้าสู่ระบบ</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
     <script>
-        window.onload = () => {
-            const fragment = new URLSearchParams(window.location.hash.slice(1));
-            const accessToken = fragment.get('access_token');
-            const tokenType = fragment.get('token_type');
-
-            if (!accessToken) {
-                document.getElementById('login').style.display = 'block';
-                return;
-            }
-
-            fetch('https://discord.com/api/users/@me', {
-                headers: {
-                    authorization: `${tokenType} ${accessToken}`,
-                },
-            })
-            .then(response => response.json())
-            .then(data => {
-                const { username, discriminator } = data;
-                const loginLink = document.getElementById('login');
-                loginLink.innerText = `${username}#${discriminator}`;
-                loginLink.href = ""; // Disable login link after login
-
-                loginLink.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent the default link behavior
-                    Swal.fire({
-                        title: 'คุณต้องการออกจากระบบหรือไม่?',
-                        text: "",
-                        icon: 'warning',
-                        showCancelButton: true,
-                        confirmButtonColor: '#00ff44',
-                        cancelButtonColor: '#d33',
-                        confirmButtonText: 'ออกจากระบบ',
-                        cancelButtonText: 'ยกเลิก'
-                    }).then((result) => {
-                        if (result.isConfirmed) {
-                            logoutUser();
-                        }
-                    });
-                });
-            })
-            .catch(console.error);
-        };
-        function logoutUser() {
- window.location.href = 'https://ntgamesdevshop.github.io/ntgame/'; 
-     }
     </script>
 </body>
 </html>
