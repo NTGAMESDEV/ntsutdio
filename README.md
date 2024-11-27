@@ -1,2 +1,0 @@
-# ntdevsutdio
-ntdevsutdio
