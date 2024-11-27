@@ -1,35 +1,9 @@
-[
-	{
-    "serverid": 1,
-    "servernamelist":"open",
-    "dateappmcin":"http://191.96.92.106/NTLAUNCHER/ntserverlist.json",
-		"logoserver":"191.96.92.106",
-		"ipservername":"SEVER COMMUNITY | BY NTDEV - NINJA RKB",
-		"portsername":"ALLDAY GAMES 2.0",
-    "liskgamefile":"https://media.discordapp.net/attachments/789456276102053898/1188162459102621867/2.png",
-    "listupdate":"https://media.discordapp.net/attachments/789456276102053898/1188162458850951290/1.png",
-		"listupdateapk":"https://cdn.discordapp.com/attachments/1076497177884491897/1160058108517822494/ALLDAYGAMES.png"
-	},
-	{
-    "serverid": 2,
-   "servernamelist":"open",
-    "dateappmcin":"http://191.96.92.106/NTLAUNCHER/ntserverlist.json",
-		"logoserver":"191.96.92.106",
-		"ipservername":"SEVER COMMUNITY | BY NTDEV - NINJA RKB",
-		"portsername":"ALLDAY GAMES 2.0",
-    "liskgamefile":"https://media.discordapp.net/attachments/789456276102053898/1188162459102621867/2.png",
-    "listupdate":"https://media.discordapp.net/attachments/789456276102053898/1188162458850951290/1.png",
-		"listupdateapk":"https://cdn.discordapp.com/attachments/1076497177884491897/1160058108517822494/ALLDAYGAMES.png"
-	},
-	{
-    "serverid": 3,
-    "servernamelist":"open",
-    "dateappmcin":"http://191.96.92.106/NTLAUNCHER/ntserverlist.json",
-		"logoserver":"191.96.92.106",
-		"ipservername":"SEVER COMMUNITY | BY NTDEV - NINJA RKB",
-		"portsername":"ALLDAY GAMES 2.0",
-    "liskgamefile":"https://media.discordapp.net/attachments/789456276102053898/1188162459102621867/2.png",
-    "listupdate":"https://media.discordapp.net/attachments/789456276102053898/1188162458850951290/1.png",
-		"listupdateapk":"https://cdn.discordapp.com/attachments/1076497177884491897/1160058108517822494/ALLDAYGAMES.png"
-	}
-]
+{
+    "clientVersionCode": 1,
+    "clientSampVersionCode": 0,
+    "gameFilesVersionCode": 1,
+    "URL_GAME_FILES" : "https://www.dropbox.com/scl/fi/ux74j9eiaw8acpj8wt3zw/ntgame.zip?rlkey=hr99r6xr7zprvvpu7bbxoet9f&st=wa93bual&dl=1",
+    "URL_GAME_FILES_UPD" : "https://www.dropbox.com/scl/fi/p1wfzjxk496rlcml1v80w/files_upd.zip?rlkey=tai133wtnce37dt15pbexioge&st=tg9ik6ob&dl=1",
+    "URL_CLIENT": "",
+    "URL_CLIENTSAMPAPK": ""
+}
