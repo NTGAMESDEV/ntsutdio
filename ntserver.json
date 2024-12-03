@@ -1,0 +1,16 @@
+[
+  {
+    "color": "CC99FF",
+    "dopname": "(SV1)",
+    "maxonline": 1000,
+    "name": "ALLDAY GAME",
+    "online": 1000
+  },
+  {
+    "color": "CC99FF",
+    "dopname": "(SV2)",
+    "maxonline": 1000,
+    "name": "ALLDAY GAME",
+    "online": 1000
+  }
+]
