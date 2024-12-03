@@ -18,6 +18,11 @@
             overflow: hidden;
             position: relative;
         }
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
     
         /* เลเยอร์เบลอพื้นหลัง */
         body::before {
@@ -80,6 +85,10 @@
     </style>    
 </head>
 <body>
+    <div id="content">
+        <h1>NT Studio User Data</h1>
+        <pre id="data-output">Loading...</pre>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
         <div class="container-fluid">
             <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
@@ -242,6 +251,21 @@
         async function fetchUserPoints(userId) {
             return Math.floor(Math.random() * 100); // ตัวอย่าง, ใช้ logic จริงแทน
         }
+        const apiUrl = "https://ntgamesdev.github.io/ntsutdio/";
+
+        async function fetchData() {
+            try {
+                const response = await fetch(apiUrl);
+                if (!response.ok) throw new Error('Failed to fetch data');
+                const data = await response.text(); // ใช้ `.text()` ถ้าไม่ใช่ JSON
+                document.getElementById('data-output').textContent = data;
+            } catch (error) {
+                console.error(error);
+                document.getElementById('data-output').textContent = 'Error loading data.';
+            }
+        }
+
+        fetchData();
     </script>    
 </body>
 </html>
