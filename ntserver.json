@@ -1,9 +1,8 @@
 [
   {
-    "color": "CC99FF",
-    "dopname": "(SV1)",
-    "maxonline": 1000,
+    "ip": "26.196.201.20",
+    "poet": 7777,
     "name": "ALLDAY GAME",
-    "online": 1000
+    "id": 1
   }
 ]
