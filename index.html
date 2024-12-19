@@ -19,24 +19,6 @@
     position: relative;
 }
 
-/* Navbar โปร่งใสพร้อมเบลอ */
-.navbar-dark {
-    background-color: rgba(255, 255, 255, 0.1); /* สีขาวโปร่งใส */
-    backdrop-filter: blur(10px); /* เอฟเฟกต์เบลอ */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* ปรับข้อความใน Navbar ให้ดูสบายตา */
-.navbar-dark .nav-link {
-    color: #fff; /* สีขาว */
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.navbar-dark .nav-link:hover {
-    color: #ffd700; /* สีทองเมื่อ hover */
-}
-
 /* ปุ่ม Login Discord อยู่ตรงกลาง */
 #user-info {
     display: flex;
@@ -75,7 +57,41 @@
     background-color: #3C45A5; /* สีฟ้าเข้มขึ้นเมื่อกด */
     transform: translateY(0);
 }
+/* Navbar โปร่งใสพร้อมเบลอ */
+.navbar-dark {
+    background-color: rgba(255, 255, 255, 0.1); /* สีขาวโปร่งใส */
+    backdrop-filter: blur(10px); /* เอฟเฟกต์เบลอ */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 
+/* ข้อความใน Navbar */
+.navbar-dark .nav-link {
+    color: #333333; /* สีเทาเข้ม เพื่อให้ตัดกับพื้นหลัง */
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    padding: 10px 15px; /* เพิ่มพื้นที่ให้กับปุ่ม */
+    border-radius: 5px; /* มุมโค้งมนเล็กน้อย */
+}
+
+/* เปลี่ยนสีเมื่อ hover */
+.navbar-dark .nav-link:hover {
+    color: #4752C4; /* สีฟ้าเข้ม */
+    background-color: rgba(71, 82, 196, 0.1); /* พื้นหลังโปร่งใสสีฟ้า */
+    transform: translateY(-2px); /* เลื่อนขึ้นเล็กน้อย */
+}
+
+/* เปลี่ยนสีเมื่อกด (active) */
+.navbar-dark .nav-link:active,
+.navbar-dark .nav-link.active {
+    color: #ffd700; /* สีทองเมื่อเลือกหรือกด */
+    background-color: rgba(255, 215, 0, 0.1); /* พื้นหลังโปร่งใสสีทอง */
+    transform: translateY(0); /* คืนค่าเมื่อกด */
+}
+
+/* ปรับปุ่มให้ดูนุ่มนวลและคลิกได้ง่าย */
+.navbar-dark .nav-link:focus {
+    outline: none; /* เอาเส้นขอบออกเมื่อโฟกัส */
+}
 /* ปรับข้อความให้อ่านง่ายและสบายตา */
 h1 {
     color: #333333; /* สีเทาเข้ม */
