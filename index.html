@@ -249,6 +249,93 @@ h5 {
                     <button class="btn btn-outline-danger logout-btn" onclick="logout()">ออกจากระบบ</button>
                 `;
                 document.getElementById('user-info').innerHTML = `
+ <div class="container mt-5 text-center">
+        <h1 class="fw-bold">ยินดีต้อนรับสู่ NTDEV STUDIO</h1>
+        <h5 class="label-default label-font-bold">ร้านของเรา คือร้านจำหน่าย ( ระบบ - Apk Mobile - Luncher PC ) ที่เกี่ยวกับ SAMP เพื่อเพิ่มประสบการณ์ดีๆใน Server คุณ</h5>
+        <div class="container mt-5 align-items-center">
+            <div class="wallet-item-wrapper container mt-5 align-items-center">
+                <div id="user-info">
+                    <div id="auth-area"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const clientId = '1219522587634302976';
+        const clientSecret = 'pZ6G7uYggAf5nGMg-32gNC0SG3HnhA0_';
+        const redirectUri = 'https://ntgamesdev.github.io/ntsutdio/';
+        const authEndpoint = `https://discord.com/oauth2/authorize?client_id=${clientId}&permissions=8&response_type=code&redirect_uri=${encodeURIComponent(redirectUri)}&scope=identify+email`;
+    
+        async function loginWithDiscord() {
+            window.location.href = authEndpoint;
+        }
+    
+        async function fetchAccessToken(code) {
+            const response = await fetch('https://discord.com/api/oauth2/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams({
+                    client_id: clientId,
+                    client_secret: clientSecret,
+                    grant_type: 'authorization_code',
+                    code: code,
+                    redirect_uri: redirectUri
+                })
+            });
+            return response.json();
+        }
+    
+        async function fetchUserProfile(token) {
+            const response = await fetch('https://discord.com/api/users/@me', {
+                headers: { Authorization: `Bearer ${token}` }
+            });
+            return response.json();
+        }
+    
+        function saveUserToLocalStorage(user, points) {
+            const currentDate = new Date();
+            const loginDate = currentDate.toLocaleString();
+            const month = currentDate.toLocaleString('default', { month: 'long' });
+            const userData = {
+                username: user.username,
+                userId: user.id,
+                avatar: user.avatar,
+                points: points,
+                loginDate: loginDate,
+                month: month
+            };
+            localStorage.setItem('user', JSON.stringify(userData));
+        }
+    
+        function logout() {
+            Swal.fire({
+                icon: 'success',
+                title: 'ออกจากระบบสำเร็จ!',
+                timer: 2000,
+                showConfirmButton: false
+            }).then(() => {
+                localStorage.removeItem('user');
+                sessionStorage.clear();
+    
+                window.location.href = redirectUri;
+            });
+        }
+    
+        async function displayUserProfile(user) {
+            try {
+                const points = await fetchUserPoints(user.id);
+                saveUserToLocalStorage(user, points);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'เข้าสู่ระบบสำเร็จ!',
+                    timer: 2000,
+                    showConfirmButton: false
+                });
+                document.getElementById('login-area').innerHTML = `
+                    <button class="btn btn-outline-danger logout-btn" onclick="logout()">ออกจากระบบ</button>
+                `;
+                document.getElementById('user-info').innerHTML = `
                     <div class="d-flex align-items-center">
                         <img src="https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.png" 
                              alt="${user.username}" class="rounded-circle me-3" 
