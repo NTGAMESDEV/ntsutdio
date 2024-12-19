@@ -19,32 +19,51 @@
     position: relative;
 }
 
-/* ลบเลเยอร์เบลอพื้นหลัง */
-body::before {
-    display: none;
+/* Navbar โปร่งใสพร้อมเบลอ */
+.navbar-dark {
+    background-color: rgba(255, 255, 255, 0.1); /* สีขาวโปร่งใส */
+    backdrop-filter: blur(10px); /* เอฟเฟกต์เบลอ */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-        .nav::before{
-            background-color: #252323;
-        }
+
+/* ปรับข้อความใน Navbar ให้ดูสบายตา */
+.navbar-dark .nav-link {
+    color: #fff; /* สีขาว */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffd700; /* สีทองเมื่อ hover */
+}
+
+/* ปุ่ม Login Discord อยู่ตรงกลาง */
+#user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* กำหนดความสูงเพื่อการจัดวางที่ดีขึ้น */
+}
 
 /* ปุ่ม Login Discord */
 .login-btn {
-    padding: 20px 20px;
-    font-size: 16px;
+    padding: 12px 25px;
+    font-size: 18px;
     color: #ffffff;
     background-color: #5865F2; /* สีฟ้า Discord */
     border: none;
-    border-radius: 5px;
+    border-radius: 30px; /* มุมโค้งมน */
     display: inline-flex;
     align-items: center;
     font-weight: bold;
     text-transform: uppercase;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .login-btn img {
-    height: 24px;
-    margin-right: 10px;
+    height: 28px;
+    margin-right: 12px;
 }
 
 .login-btn:hover {
@@ -55,6 +74,23 @@ body::before {
 .login-btn:active {
     background-color: #3C45A5; /* สีฟ้าเข้มขึ้นเมื่อกด */
     transform: translateY(0);
+}
+
+/* ปรับข้อความให้อ่านง่ายและสบายตา */
+h1 {
+    color: #333333; /* สีเทาเข้ม */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #555555; /* สีเทากลาง */
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: center;
 }
     </style>    
 </head>
