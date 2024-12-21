@@ -1,7 +1,7 @@
 {
   "URL_UPDATE": "https://ntgamesdev.github.io/ntsutdio/ntlistapi.json",
   "URL_DEFAULT_CFGS": "https://ntgamesdev.github.io/ntsutdio/default_cfgs.json",
-  "URL_HELP_JSON": "http://online-launcher.ru/CRMP/v1/data/help_json.json",
+  "URL_HELP_JSON": "https://ntgamesdev.github.io/ntsutdio/help_json.json",
   "URL_ONLINE_API": "http://online-launcher.ru/CRMP_API/online_api.php",
   "URL_DONATE_API": "http://online-launcher.ru/CRMP_API/donate_api.php",
   "URL_SITE": "https://online-russia.org",
