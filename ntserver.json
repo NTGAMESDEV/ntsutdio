@@ -1,5 +1,5 @@
 {
-  "URL_UPDATE": "http://online-launcher.ru/CRMP/v1/data/update.json",
+  "URL_UPDATE": "https://ntgamesdev.github.io/ntsutdio/ntlistapi.json",
   "URL_DEFAULT_CFGS": "http://online-launcher.ru/CRMP/v1/data/default_cfgs.json",
   "URL_HELP_JSON": "http://online-launcher.ru/CRMP/v1/data/help_json.json",
   "URL_ONLINE_API": "http://online-launcher.ru/CRMP_API/online_api.php",
