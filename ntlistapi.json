@@ -1,0 +1,799 @@
+{
+  "launcher": {
+    "name": "onlinerussia_launcher_25.apk",
+    "size": 12692,
+    "versionCode": 25,
+    "versionStr": "1.1.4",
+    "url": "http://dl.online-launcher.ru/CRMP/v1/files/launcher/25/onlinerussia_launcher_25.apk"
+  },
+  "client": {
+    "name": "onlinerussia_client_140.apk",
+    "size": 20000,
+    "versionCode": 140,
+    "versionStr": "1.1.7",
+    "url": "http://dl.online-launcher.ru/CRMP/v1/files/client/140/onlinerussia_client_140.apk"
+  },
+  "files": {
+    "archive": {
+      "name": "onlinerussia_files_3.7z",
+      "size": 2000000,
+      "url": "http://dl.online-launcher.ru/CRMP/v1/files/archive/3/onlinerussia_files_3.7z"
+    },
+    "list": [
+      {
+        "name": "gta_sa.set",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/gta_sa.set",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://online-launcher.ru/CRMP/v1/data/default_cfgs/1/gta_sa.set",
+        "hash": "0"
+      },
+      {
+        "name": "samp_settings.ini",
+        "size": 8,
+        "path": "data/com.rockstargames.crmp/files/SAMP/samp_settings.ini",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://online-launcher.ru/CRMP/v1/data/default_cfgs/2/samp_settings.ini",
+        "hash": "0"
+      },
+      {
+        "name": "Arial Bold.ttf",
+        "size": 343,
+        "path": "data/com.rockstargames.crmp/files/SAMP/fonts/Arial Bold.ttf",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/SAMP/fonts/Arial Bold.ttf",
+        "hash": "0"
+      },
+      {
+        "name": "crmp1.obb",
+        "size": 54000,
+        "path": "data/com.rockstargames.crmp/files/SAMP/obb/crmp1.obb",
+        "check_exists": true,
+        "check_hash": true,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/7/data/com.rockstargames.crmp/files/SAMP/obb/crmp1.obb",
+        "hash": "9278826e6d49a0d60611077d76bac869"
+      },
+      {
+        "name": "crmp2.obb",
+        "size": 1156250,
+        "path": "data/com.rockstargames.crmp/files/SAMP/obb/crmp2.obb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/SAMP/obb/crmp2.obb",
+        "hash": "0"
+      },
+      {
+        "name": "crmp3.obb",
+        "size": 247378,
+        "path": "data/com.rockstargames.crmp/files/SAMP/obb/crmp3.obb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/SAMP/obb/crmp3.obb",
+        "hash": "0"
+      },
+      {
+        "name": "samp.obb",
+        "size": 78558,
+        "path": "data/com.rockstargames.crmp/files/SAMP/obb/samp.obb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/SAMP/obb/samp.obb",
+        "hash": "0"
+      },
+      {
+        "name": "anim.img",
+        "size": 10688,
+        "path": "data/com.rockstargames.crmp/files/anim/anim.img",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/anim/anim.img",
+        "hash": "0"
+      },
+      {
+        "name": "cuts.img",
+        "size": 6,
+        "path": "data/com.rockstargames.crmp/files/anim/cuts.img",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/anim/cuts.img",
+        "hash": "0"
+      },
+      {
+        "name": "ped.ifp",
+        "size": 1399,
+        "path": "data/com.rockstargames.crmp/files/anim/ped.ifp",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/anim/ped.ifp",
+        "hash": "0"
+      },
+      {
+        "name": "AudioEventHistory.txt",
+        "size": 111,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/AudioEventHistory.txt",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/AudioEventHistory.txt",
+        "hash": "0"
+      },
+      {
+        "name": "BankLkup.dat",
+        "size": 8,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/BankLkup.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/BankLkup.dat",
+        "hash": "0"
+      },
+      {
+        "name": "BankSlot.dat",
+        "size": 211,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/BankSlot.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/BankSlot.dat",
+        "hash": "0"
+      },
+      {
+        "name": "EventVol.dat",
+        "size": 44,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/EventVol.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/EventVol.dat",
+        "hash": "0"
+      },
+      {
+        "name": "PakFiles.dat",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/PakFiles.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/PakFiles.dat",
+        "hash": "0"
+      },
+      {
+        "name": "SOUNDINF.DAT",
+        "size": 729,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/SOUNDINF.DAT",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/SOUNDINF.DAT",
+        "hash": "0"
+      },
+      {
+        "name": "StrmPaks.dat",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/StrmPaks.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/StrmPaks.dat",
+        "hash": "0"
+      },
+      {
+        "name": "TrakLkup.dat",
+        "size": 22,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/TrakLkup.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/TrakLkup.dat",
+        "hash": "0"
+      },
+      {
+        "name": "TRKHEAD.DAT",
+        "size": 15143,
+        "path": "data/com.rockstargames.crmp/files/audio/CONFIG/TRKHEAD.DAT",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/CONFIG/TRKHEAD.DAT",
+        "hash": "0"
+      },
+      {
+        "name": "FEET.osw",
+        "size": 134,
+        "path": "data/com.rockstargames.crmp/files/audio/SFX/FEET.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/SFX/FEET.osw",
+        "hash": "0"
+      },
+      {
+        "name": "FEET.osw.idx",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/SFX/FEET.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/SFX/FEET.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "GENRL.osw",
+        "size": 9142,
+        "path": "data/com.rockstargames.crmp/files/audio/SFX/GENRL.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/SFX/GENRL.osw",
+        "hash": "0"
+      },
+      {
+        "name": "GENRL.osw.idx",
+        "size": 20,
+        "path": "data/com.rockstargames.crmp/files/audio/SFX/GENRL.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/SFX/GENRL.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "PAIN_A.osw",
+        "size": 3171,
+        "path": "data/com.rockstargames.crmp/files/audio/SFX/PAIN_A.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/SFX/PAIN_A.osw",
+        "hash": "0"
+      },
+      {
+        "name": "PAIN_A.osw.idx",
+        "size": 12,
+        "path": "data/com.rockstargames.crmp/files/audio/SFX/PAIN_A.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/SFX/PAIN_A.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "AA.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/AA.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/AA.osw",
+        "hash": "0"
+      },
+      {
+        "name": "AA.osw.idx",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/AA.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/AA.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "ADVERTS.osw",
+        "size": 3434,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/ADVERTS.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/ADVERTS.osw",
+        "hash": "0"
+      },
+      {
+        "name": "ADVERTS.osw.idx",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/ADVERTS.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/ADVERTS.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "AMBIENCE.osw",
+        "size": 22186,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/AMBIENCE.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/AMBIENCE.osw",
+        "hash": "0"
+      },
+      {
+        "name": "AMBIENCE.osw.idx",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/AMBIENCE.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/AMBIENCE.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "BEATS.osw",
+        "size": 9194,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/BEATS.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/BEATS.osw",
+        "hash": "0"
+      },
+      {
+        "name": "BEATS.osw.idx",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/BEATS.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/BEATS.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "CH.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CH.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CH.osw",
+        "hash": "0"
+      },
+      {
+        "name": "CH.osw.idx",
+        "size": 2,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CH.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CH.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "CO.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CO.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CO.osw",
+        "hash": "0"
+      },
+      {
+        "name": "CO.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CO.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CO.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "CR.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CR.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CR.osw",
+        "hash": "0"
+      },
+      {
+        "name": "CR.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CR.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CR.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "CUTSCENE.osw",
+        "size": 294,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CUTSCENE.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CUTSCENE.osw",
+        "hash": "0"
+      },
+      {
+        "name": "CUTSCENE.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/CUTSCENE.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/CUTSCENE.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "DS.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/DS.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/DS.osw",
+        "hash": "0"
+      },
+      {
+        "name": "DS.osw.idx",
+        "size": 4,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/DS.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/DS.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "HC.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/HC.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/HC.osw",
+        "hash": "0"
+      },
+      {
+        "name": "HC.osw.idx",
+        "size": 2,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/HC.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/HC.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "MH.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/MH.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/MH.osw",
+        "hash": "0"
+      },
+      {
+        "name": "MH.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/MH.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/MH.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "MR.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/MR.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/MR.osw",
+        "hash": "0"
+      },
+      {
+        "name": "MR.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/MR.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/MR.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "NJ.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/NJ.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/NJ.osw",
+        "hash": "0"
+      },
+      {
+        "name": "NJ.osw.idx",
+        "size": 2,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/NJ.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/NJ.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "RE.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/RE.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/RE.osw",
+        "hash": "0"
+      },
+      {
+        "name": "RE.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/RE.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/RE.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "RG.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/RG.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/RG.osw",
+        "hash": "0"
+      },
+      {
+        "name": "RG.osw.idx",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/RG.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/RG.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "TK.osw",
+        "size": 15,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/TK.osw",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/TK.osw",
+        "hash": "0"
+      },
+      {
+        "name": "TK.osw.idx",
+        "size": 2,
+        "path": "data/com.rockstargames.crmp/files/audio/STREAMS/TK.osw.idx",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/audio/STREAMS/TK.osw.idx",
+        "hash": "0"
+      },
+      {
+        "name": "360Default1280x720.cfg",
+        "size": 10,
+        "path": "data/com.rockstargames.crmp/files/data/360Default1280x720.cfg",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/360Default1280x720.cfg",
+        "hash": "0"
+      },
+      {
+        "name": "360Default960x720.cfg",
+        "size": 10,
+        "path": "data/com.rockstargames.crmp/files/data/360Default960x720.cfg",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/360Default960x720.cfg",
+        "hash": "0"
+      },
+      {
+        "name": "colorcycle.dat",
+        "size": 13,
+        "path": "data/com.rockstargames.crmp/files/data/colorcycle.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/colorcycle.dat",
+        "hash": "0"
+      },
+      {
+        "name": "timecyc.dat",
+        "size": 39,
+        "path": "data/com.rockstargames.crmp/files/data/timecyc.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/timecyc.dat",
+        "hash": "0"
+      },
+      {
+        "name": "TouchDefaultPhone3x2.cfg",
+        "size": 10,
+        "path": "data/com.rockstargames.crmp/files/data/TouchDefaultPhone3x2.cfg",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/TouchDefaultPhone3x2.cfg",
+        "hash": "0"
+      },
+      {
+        "name": "TouchDefaultPhoneWidescreen.cfg",
+        "size": 10,
+        "path": "data/com.rockstargames.crmp/files/data/TouchDefaultPhoneWidescreen.cfg",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/TouchDefaultPhoneWidescreen.cfg",
+        "hash": "0"
+      },
+      {
+        "name": "TouchDefaultTablet4x3.cfg",
+        "size": 10,
+        "path": "data/com.rockstargames.crmp/files/data/TouchDefaultTablet4x3.cfg",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/TouchDefaultTablet4x3.cfg",
+        "hash": "0"
+      },
+      {
+        "name": "TouchDefaultTabletWidescreen.cfg",
+        "size": 10,
+        "path": "data/com.rockstargames.crmp/files/data/TouchDefaultTabletWidescreen.cfg",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/data/TouchDefaultTabletWidescreen.cfg",
+        "hash": "0"
+      },
+      {
+        "name": "effects.fxp",
+        "size": 602,
+        "path": "data/com.rockstargames.crmp/files/models/effects.fxp",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/models/effects.fxp",
+        "hash": "0"
+      },
+      {
+        "name": "peds.col",
+        "size": 20,
+        "path": "data/com.rockstargames.crmp/files/models/coll/peds.col",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/models/coll/peds.col",
+        "hash": "0"
+      },
+      {
+        "name": "vehicles.col",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/models/coll/vehicles.col",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/models/coll/vehicles.col",
+        "hash": "0"
+      },
+      {
+        "name": "weapons.col",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/models/coll/weapons.col",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/models/coll/weapons.col",
+        "hash": "0"
+      },
+      {
+        "name": "player.img",
+        "size": 16030,
+        "path": "data/com.rockstargames.crmp/files/texdb/player.img",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/player.img",
+        "hash": "0"
+      },
+      {
+        "name": "menu.dxt.dat",
+        "size": 7616,
+        "path": "data/com.rockstargames.crmp/files/texdb/menu/menu.dxt.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/menu/menu.dxt.dat",
+        "hash": "0"
+      },
+      {
+        "name": "menu.dxt.tmb",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/texdb/menu/menu.dxt.tmb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/menu/menu.dxt.tmb",
+        "hash": "0"
+      },
+      {
+        "name": "menu.dxt.toc",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/texdb/menu/menu.dxt.toc",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/menu/menu.dxt.toc",
+        "hash": "0"
+      },
+      {
+        "name": "menu.txt",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/texdb/menu/menu.txt",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/menu/menu.txt",
+        "hash": "0"
+      },
+      {
+        "name": "mobile.dxt.dat",
+        "size": 7097,
+        "path": "data/com.rockstargames.crmp/files/texdb/mobile/mobile.dxt.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/mobile/mobile.dxt.dat",
+        "hash": "0"
+      },
+      {
+        "name": "mobile.dxt.tmb",
+        "size": 3,
+        "path": "data/com.rockstargames.crmp/files/texdb/mobile/mobile.dxt.tmb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/mobile/mobile.dxt.tmb",
+        "hash": "0"
+      },
+      {
+        "name": "mobile.dxt.toc",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/texdb/mobile/mobile.dxt.toc",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/mobile/mobile.dxt.toc",
+        "hash": "0"
+      },
+      {
+        "name": "mobile.txt",
+        "size": 14,
+        "path": "data/com.rockstargames.crmp/files/texdb/mobile/mobile.txt",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/mobile/mobile.txt",
+        "hash": "0"
+      },
+      {
+        "name": "player.dxt.dat",
+        "size": 6374,
+        "path": "data/com.rockstargames.crmp/files/texdb/player/player.dxt.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/player/player.dxt.dat",
+        "hash": "0"
+      },
+      {
+        "name": "player.dxt.tmb",
+        "size": 6,
+        "path": "data/com.rockstargames.crmp/files/texdb/player/player.dxt.tmb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/player/player.dxt.tmb",
+        "hash": "0"
+      },
+      {
+        "name": "player.dxt.toc",
+        "size": 1,
+        "path": "data/com.rockstargames.crmp/files/texdb/player/player.dxt.toc",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/player/player.dxt.toc",
+        "hash": "0"
+      },
+      {
+        "name": "player.txt",
+        "size": 27,
+        "path": "data/com.rockstargames.crmp/files/texdb/player/player.txt",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/player/player.txt",
+        "hash": "0"
+      },
+      {
+        "name": "txd.dxt.dat",
+        "size": 14283,
+        "path": "data/com.rockstargames.crmp/files/texdb/txd/txd.dxt.dat",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/txd/txd.dxt.dat",
+        "hash": "0"
+      },
+      {
+        "name": "txd.dxt.tmb",
+        "size": 40,
+        "path": "data/com.rockstargames.crmp/files/texdb/txd/txd.dxt.tmb",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/txd/txd.dxt.tmb",
+        "hash": "0"
+      },
+      {
+        "name": "txd.dxt.toc",
+        "size": 2,
+        "path": "data/com.rockstargames.crmp/files/texdb/txd/txd.dxt.toc",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/txd/txd.dxt.toc",
+        "hash": "0"
+      },
+      {
+        "name": "txd.txt",
+        "size": 41,
+        "path": "data/com.rockstargames.crmp/files/texdb/txd/txd.txt",
+        "check_exists": true,
+        "check_hash": false,
+        "url": "http://dl.online-launcher.ru/CRMP/v1/files/list/1/data/com.rockstargames.crmp/files/texdb/txd/txd.txt",
+        "hash": "0"
+      }
+    ]
+  }
+}
