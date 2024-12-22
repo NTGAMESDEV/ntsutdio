@@ -1,0 +1,16 @@
+{
+  "default_cfgs": [
+    {
+      "name": "gta_sa.set",
+      "size": 10,
+      "url": "http://online-launcher.ru/CRMP/v1/data/default_cfgs/1/gta_sa.set",
+      "path": "data/com.rockstargames.crmp/files/"
+    },
+    {
+      "name": "samp_settings.ini",
+      "size": 10,
+      "url": "http://online-launcher.ru/CRMP/v1/data/default_cfgs/2/samp_settings.ini",
+      "path": "data/com.rockstargames.crmp/files/SAMP/"
+    }
+  ]
+}

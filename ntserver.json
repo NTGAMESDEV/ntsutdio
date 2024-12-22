@@ -1,8 +1,11 @@
-[
-  {
-    "ip": "26.196.201.20",
-    "poet": 7777,
-    "name": "ALLDAY GAME",
-    "id": 1
-  }
-]
+{
+  "URL_UPDATE": "https://ntgamesdev.github.io/ntsutdio/ntlistapi.json",
+  "URL_DEFAULT_CFGS": "https://ntgamesdev.github.io/ntsutdio/default_cfgs.json",
+  "URL_HELP_JSON": "https://ntgamesdev.github.io/ntsutdio/help_json.json",
+  "URL_ONLINE_API": "https://ntgamesdev.github.io/ntsutdio/online_api.php",
+  "URL_DONATE_API": "http://online-launcher.ru/CRMP_API/donate_api.php",
+  "URL_SITE": "https://online-russia.org",
+  "URL_VK_GROUP": "https://vk.com/crmp_mobile",
+  "URL_YOUTUBE": "https://www.youtube.com/channel/UCCzB4ySWiZfRvApMU2CTfEA",
+  "URL_SUPPORT": "https://vk.me/onlinerussia_client"
+}
